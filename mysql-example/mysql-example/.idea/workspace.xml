@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0051079-c28d-44d8-8b80-a75b5e05addb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../fourJobForSpringBoot/mybatis-redis/src/main/java/com/lagou/mybatisredis/demo/InternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingMasterSlavesDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/META-INF/services/org.apache.shardingsphere.spi.keygen.ShardingKeyGenerator" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-encryptor.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-hint-database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-master-slave.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-sharding-database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-sharding-master-slaves.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/saga.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../eightForzookeper/quick-mybatis-druid/src/main/java/com/quick/druid/config/DataBaseInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../eightForzookeper/quick-mybatis-druid/src/main/java/com/quick/druid/config/DataBaseInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../eightForzookeper/quick-mybatis-druid/src/main/java/com/quick/druid/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../eightForzookeper/quick-mybatis-druid/src/main/java/com/quick/druid/controller/ApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../fiveJobForTomcat/大作业2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../fiveJobForTomcat/大作业2.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../fourJobForSpringBoot/mybatis-redis/src/main/java/com/lagou/mybatisredis/MybatisRedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../fourJobForSpringBoot/mybatis-redis/src/main/java/com/lagou/mybatisredis/MybatisRedisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../fourJobForSpringBoot/mybatis-redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../fourJobForSpringBoot/mybatis-redis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../fourJobForSpringBoot/作业/54087018_104668222850.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../fourJobForSpringBoot/作业/54087496_104664765269.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../fourJobForSpringBoot/作业/54090018_104659255597.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../laGou-oneJobForMybatis/oneJobForMybatis/IPersistence/src/test/java/com/lagou/test/IPersistenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../laGou-oneJobForMybatis/oneJobForMybatis/IPersistence/src/test/java/com/lagou/test/IPersistenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../laGou-threeJobForSpringMVC/threeJobForSpringMVC/mvc/src/main/java/com/lagou/demo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../laGou-threeJobForSpringMVC/threeJobForSpringMVC/mvc/src/main/java/com/lagou/demo/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../laGou-twoJobForSpring/lagou-transfer/src/main/java/com/lagou/edu/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../laGou-twoJobForSpring/lagou-transfer/src/main/java/com/lagou/edu/factory/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../nineJobForDubbo/Dubbo_Demo/dubbo-client/src/main/java/com/dcits/dubbo/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../nineJobForDubbo/Dubbo_Demo/dubbo-client/src/main/java/com/dcits/dubbo/Controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../sevenjobForDistributed/zdy_rpc_nomodify/zdy_rpc_provider/src/main/java/com/lagou/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../sevenjobForDistributed/zdy_rpc_nomodify/zdy_rpc_provider/src/main/java/com/lagou/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../sixjobForWebServer/demo-elastic-job/src/main/java/com/xiaoyg/demoelasticjob/com/MyJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../sixjobForWebServer/demo-elastic-job/src/main/java/com/xiaoyg/demoelasticjob/com/MyJobConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../sixjobForWebServer/~$布式任务总结.doc" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/sharding-jdbc-example/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/sharding-proxy-example/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-sharding-master-slaves.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingMasterSlavesDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="122" column="5" lean-forward="true" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestHintAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="40" column="41" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/main/java/com/lagou/repository/BOrderRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.12.Final/hibernate-core-5.4.12.Final.jar!/org/hibernate/criterion/Example.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/main/java/com/lagou/entity/BOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1366#1367#0" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.2.5.RELEASE/spring-data-jpa-2.2.5.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.2.5.RELEASE/spring-data-jpa-2.2.5.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4625">
+              <caret line="237" column="61" selection-start-line="237" selection-start-column="52" selection-end-line="237" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-sharding-database.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-master-slave.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LAGOUKEY</find>
+      <find>lagou_pwd</find>
+      <find>master0</find>
+      <find>master1</find>
+      <find>spring.shardingsphere.sharding.tables.b_order.table-strategy.inline.sharding-column=</find>
+      <find>spring.shardingsphere.sharding.tables.b_order.table-strategy.inline.algorithm-expression</find>
+      <find>spring.shardingsphere.sharding.broadcast-tables</find>
+      <find>orderRepository</find>
+      <find>load-balance-algorithm-type</find>
+      <find>load-balance-algorithm-type:</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingTransaction.java" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/pom.xml" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingDatabase.java" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-sharding-database.properties" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestMasterSlave.java" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestEncryptor.java" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/main/resources/application-hint-database.properties" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestHintAlgorithm.java" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-hint-database.properties" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/main/java/com/lagou/hint/MyHintShardingAlgorithm.java" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-encryptor.properties" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application.properties" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingDatabase1.java" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/main/java/com/lagou/entity/BOrder.java" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/main/java/com/lagou/repository/BOrderRepository.java" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingMasterSlavesDatabase.java" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-sharding-master-slaves.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\maven_localRepository" />
+        <option name="mavenHome" value="D:/softFile/javaSoft/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\softFile\javaSoft\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sharding-jdbc-example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sharding-jdbc-example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sharding-jdbc-example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sharding-proxy-example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysql-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysql-example" type="462c0819:PsiDirectoryNode" />
+              <item name="sharding-jdbc-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysql-example" type="462c0819:PsiDirectoryNode" />
+              <item name="sharding-jdbc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysql-example" type="462c0819:PsiDirectoryNode" />
+              <item name="sharding-jdbc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysql-example" type="462c0819:PsiDirectoryNode" />
+              <item name="sharding-jdbc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysql-example" type="462c0819:PsiDirectoryNode" />
+              <item name="sharding-jdbc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysql-example" type="462c0819:PsiDirectoryNode" />
+              <item name="sharding-jdbc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysql-example" type="462c0819:PsiDirectoryNode" />
+              <item name="sharding-jdbc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysql-example" type="462c0819:PsiDirectoryNode" />
+              <item name="sharding-jdbc-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="schema" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="mysql-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="schema.layouts" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612136453737" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sharding-jdbc-example/lib/sharding-transaction-base-saga-4.0.0-RC2.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4856115" />
+    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.project" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\laGouStudy\整理\task\thirteenForMySQL\mysql海量数据存储与优化下 (1)\mysql海量数据存储与优化下\mysql-example\mysql-example\sharding-jdbc-example\src\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestShardingMasterSlavesDatabase.testFindBOrder">
+    <configuration name="TestPosition.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding-proxy-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.TestPosition" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestShardingDatabase.testShardingBOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding-jdbc-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.TestShardingDatabase" />
+      <option name="METHOD_NAME" value="testShardingBOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestShardingMasterSlavesDatabase.testFindBOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding-jdbc-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.TestShardingMasterSlavesDatabase" />
+      <option name="METHOD_NAME" value="testFindBOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestShardingMasterSlavesDatabase.testFindShardingBOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding-jdbc-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.TestShardingMasterSlavesDatabase" />
+      <option name="METHOD_NAME" value="testFindShardingBOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestShardingMasterSlavesDatabase.testShardingBOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding-jdbc-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.TestShardingMasterSlavesDatabase" />
+      <option name="METHOD_NAME" value="testShardingBOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestShardingMasterSlavesDatabase.testFindBOrder" />
+        <item itemvalue="JUnit.TestShardingMasterSlavesDatabase.testFindShardingBOrder" />
+        <item itemvalue="JUnit.TestShardingMasterSlavesDatabase.testShardingBOrder" />
+        <item itemvalue="JUnit.TestShardingDatabase.testShardingBOrder" />
+        <item itemvalue="JUnit.TestPosition.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0051079-c28d-44d8-8b80-a75b5e05addb" name="Default Changelist" comment="" />
+      <created>1611534780085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611534780085</updated>
+      <workItem from="1611534784830" duration="30382000" />
+      <workItem from="1612052285248" duration="4137000" />
+      <workItem from="1612131870616" duration="4520000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestShardingMasterSlavesDatabase_testFindBOrder - 2021.02.01 at 06h 31m 44s.xml">
+      <configuration name="TestShardingMasterSlavesDatabase.testFindBOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShardingMasterSlavesDatabase_testFindBOrder - 2021.02.01 at 06h 33m 15s.xml">
+      <configuration name="TestShardingMasterSlavesDatabase.testFindBOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShardingMasterSlavesDatabase_testFindBOrder - 2021.02.01 at 06h 40m 49s.xml">
+      <configuration name="TestShardingMasterSlavesDatabase.testFindBOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShardingMasterSlavesDatabase_testFindBOrder - 2021.02.01 at 06h 45m 19s.xml">
+      <configuration name="TestShardingMasterSlavesDatabase.testFindBOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShardingMasterSlavesDatabase_testFindBOrder - 2021.02.01 at 06h 48m 41s.xml">
+      <configuration name="TestShardingMasterSlavesDatabase.testFindBOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShardingMasterSlavesDatabase_testFindBOrder - 2021.02.01 at 07h 04m 27s.xml">
+      <configuration name="TestShardingMasterSlavesDatabase.testFindBOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShardingMasterSlavesDatabase_testFindBOrder - 2021.02.01 at 07h 25m 47s.xml">
+      <configuration name="TestShardingMasterSlavesDatabase.testFindBOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShardingMasterSlavesDatabase_testFindBOrder - 2021.02.01 at 07h 27m 37s.xml">
+      <configuration name="TestShardingMasterSlavesDatabase.testFindBOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShardingMasterSlavesDatabase_testFindBOrder - 2021.02.01 at 07h 33m 41s.xml">
+      <configuration name="TestShardingMasterSlavesDatabase.testFindBOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShardingMasterSlavesDatabase_testFindBOrder - 2021.02.01 at 07h 34m 12s.xml">
+      <configuration name="TestShardingMasterSlavesDatabase.testFindBOrder" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39039000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2748143" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.477306" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6339678" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.329429" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="MyBatis Log" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.329429" />
+      <window_info anchor="bottom" id="Tail" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.41239893" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="BPMNPalette" order="7" />
+      <window_info anchor="right" id="Mybatis datasource" order="8" side_tool="true" />
+      <window_info anchor="right" id="Key Promoter X" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingDatabase.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingDatabase.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingDatabase.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestHintAlgorithm.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sharding-jdbc-example/src/main/java/com/lagou/hint/MyHintShardingAlgorithm.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sharding-jdbc-example/src/main/java/com/lagou/hint/MyHintShardingAlgorithm.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestHintAlgorithm.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestHintAlgorithm.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sharding-proxy-example/src/test/java/dao/TestPosition.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sharding-proxy-example/src/test/java/dao/TestPosition.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingMasterSlavesDatabase.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.2.5.RELEASE/spring-data-jpa-2.2.5.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>226</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.2.5.RELEASE/spring-data-jpa-2.2.5.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class</url>
+          <line>383</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.12.Final/hibernate-core-5.4.12.Final.jar!/org/hibernate/query/internal/AbstractProducedQuery.class</url>
+          <line>1193</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingMasterSlavesDatabase.java</url>
+          <line>119</line>
+          <properties class="dao.TestShardingMasterSlavesDatabase" method="testFindBOrder">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingMasterSlavesDatabase.java</url>
+          <line>110</line>
+          <properties class="dao.TestShardingMasterSlavesDatabase" method="testFindShardingBOrder">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/sharding-core-route/4.1.0/sharding-core-route-4.1.0.jar!/org/apache/shardingsphere/sharding/route/engine/type/standard/ShardingStandardRoutingEngine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/sharding-core-route/4.1.0/sharding-core-route-4.1.0.jar!/org/apache/shardingsphere/sharding/route/engine/ShardingRouteDecorator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/shardingsphere-route/4.1.0/shardingsphere-route-4.1.0.jar!/org/apache/shardingsphere/underlying/route/DataNodeRouter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/shardingsphere-pluggable/4.1.0/shardingsphere-pluggable-4.1.0.jar!/org/apache/shardingsphere/underlying/pluggble/prepare/PreparedQueryPrepareEngine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/shardingsphere-pluggable/4.1.0/shardingsphere-pluggable-4.1.0.jar!/org/apache/shardingsphere/underlying/pluggble/prepare/BasePrepareEngine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/sharding-jdbc-core/4.1.0/sharding-jdbc-core-4.1.0.jar!/org/apache/shardingsphere/shardingjdbc/jdbc/core/statement/ShardingPreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.12.Final/hibernate-core-5.4.12.Final.jar!/org/hibernate/engine/jdbc/internal/ResultSetReturnImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.12.Final/hibernate-core-5.4.12.Final.jar!/org/hibernate/loader/Loader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1162" selection-start-line="1162" selection-end-line="1162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/main/resources/application-encryptor.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/main/java/com/lagou/entity/CUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/annotation/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shardingsphere/sharding-core-api/4.1.1/sharding-core-api-4.1.1.jar!/org/apache/shardingsphere/api/hint/HintManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/main/resources/application-hint-database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="15" selection-end-line="17" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/main/java/com/lagou/hint/MyHintShardingAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestEncryptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-encryptor.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+          <folding>
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-proxy-example/src/main/java/com/lagou/entity/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-proxy-example/src/main/java/com/lagou/repository/PositionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-hint-database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-proxy-example/src/main/java/com/lagou/RunBoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-proxy-example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72" />
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-proxy-example/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-proxy-example/src/test/java/dao/TestPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="421" column="16" selection-start-line="421" selection-start-column="16" selection-end-line="421" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestMasterSlave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.12.Final/hibernate-core-5.4.12.Final.jar!/org/hibernate/query/internal/AbstractProducedQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="1169" selection-start-line="1169" selection-end-line="1169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.12.Final/hibernate-core-5.4.12.Final.jar!/org/hibernate/query/Query.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#3433#3434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.12.Final/hibernate-core-5.4.12.Final.jar!/org/hibernate/query/criteria/internal/compile/CriteriaQueryTypeQueryAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#2217#2218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.5.RELEASE/spring-data-commons-2.2.5.RELEASE.jar!/org/springframework/data/repository/core/support/RepositoryComposition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.5.RELEASE/spring-data-commons-2.2.5.RELEASE.jar!/org/springframework/data/repository/core/support/RepositoryFactorySupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="430" selection-start-line="430" selection-end-line="430" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.5.RELEASE/spring-data-commons-2.2.5.RELEASE.jar!/org/springframework/data/projection/DefaultMethodInvokingMethodInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.4.RELEASE/spring-tx-5.2.4.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.12.Final/hibernate-core-5.4.12.Final.jar!/org/hibernate/criterion/Example.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.2.5.RELEASE/spring-data-jpa-2.2.5.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.2.5.RELEASE/spring-data-jpa-2.2.5.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4625">
+          <caret line="237" column="61" selection-start-line="237" selection-start-column="52" selection-end-line="237" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/main/java/com/lagou/entity/BOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/main/java/com/lagou/repository/BOrderRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestHintAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-sharding-database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-master-slave.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/java/dao/TestShardingMasterSlavesDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="122" column="5" lean-forward="true" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-jdbc-example/src/test/resources/application-sharding-master-slaves.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42266187" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42266187" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>sharding-transaction-base-saga-4.0.0-RC2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4856115" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42266187" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sharding-proxy-example</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4856115" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4856115" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
