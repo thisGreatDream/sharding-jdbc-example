@@ -1,8 +1,8 @@
 package dao;
 
-import com.lagou.RunBoot;
-import com.lagou.entity.CUser;
-import com.lagou.repository.CUserRepository;
+import com.shard.RunBoot;
+import com.shard.entity.CUser;
+import com.shard.repository.CUserRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

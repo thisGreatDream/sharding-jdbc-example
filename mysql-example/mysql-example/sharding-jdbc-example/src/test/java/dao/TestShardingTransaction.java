@@ -1,11 +1,11 @@
 /*
 package dao;
 
-import com.lagou.RunBoot;
-import com.lagou.entity.Position;
-import com.lagou.entity.PositionDetail;
-import com.lagou.repository.PositionDetailRepository;
-import com.lagou.repository.PositionRepository;
+import com.shard.RunBoot;
+import com.shard.entity.Position;
+import com.shard.entity.PositionDetail;
+import com.shard.repository.PositionDetailRepository;
+import com.shard.repository.PositionRepository;
 import org.apache.shardingsphere.transaction.annotation.ShardingTransactionType;
 import org.apache.shardingsphere.transaction.core.TransactionType;
 import org.apache.shardingsphere.transaction.core.TransactionTypeHolder;

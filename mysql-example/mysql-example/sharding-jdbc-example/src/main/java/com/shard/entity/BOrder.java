@@ -1,4 +1,4 @@
-package com.lagou.entity;
+package com.shard.entity;
 
 import org.hibernate.annotations.Proxy;
 

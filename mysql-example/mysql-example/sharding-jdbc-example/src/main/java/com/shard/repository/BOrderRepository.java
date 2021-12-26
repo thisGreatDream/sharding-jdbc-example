@@ -1,6 +1,6 @@
-package com.lagou.repository;
+package com.shard.repository;
 
-import com.lagou.entity.BOrder;
+import com.shard.entity.BOrder;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

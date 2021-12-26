@@ -1,10 +1,10 @@
 package dao;
 
-import com.lagou.RunBoot;
-import com.lagou.entity.BOrder;
-import com.lagou.entity.City;
-import com.lagou.repository.BOrderRepository;
-import com.lagou.repository.CityRepository;
+import com.shard.RunBoot;
+import com.shard.entity.BOrder;
+import com.shard.entity.City;
+import com.shard.repository.BOrderRepository;
+import com.shard.repository.CityRepository;
 import org.apache.shardingsphere.api.hint.HintManager;
 import org.junit.Test;
 import org.junit.runner.RunWith;

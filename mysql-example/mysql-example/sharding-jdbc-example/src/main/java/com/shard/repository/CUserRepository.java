@@ -1,6 +1,6 @@
-package com.lagou.repository;
+package com.shard.repository;
 
-import com.lagou.entity.CUser;
+import com.shard.entity.CUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

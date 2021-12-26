@@ -1,14 +1,14 @@
 package dao;
 
-import com.lagou.RunBoot;
-import com.lagou.entity.BOrder;
-import com.lagou.entity.City;
-import com.lagou.entity.Position;
-import com.lagou.entity.PositionDetail;
-import com.lagou.repository.BOrderRepository;
-import com.lagou.repository.CityRepository;
-import com.lagou.repository.PositionDetailRepository;
-import com.lagou.repository.PositionRepository;
+import com.shard.RunBoot;
+import com.shard.entity.BOrder;
+import com.shard.entity.City;
+import com.shard.entity.Position;
+import com.shard.entity.PositionDetail;
+import com.shard.repository.BOrderRepository;
+import com.shard.repository.CityRepository;
+import com.shard.repository.PositionDetailRepository;
+import com.shard.repository.PositionRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -41,7 +41,7 @@ public class TestShardingMasterSlavesDatabase {
         for (int i = 1; i <= 20; i++) {
             Position position = new Position();
 //            position.setId(i);
-            position.setName("lagou" + i);
+            position.setName("shard" + i);
             position.setSalary("1000000");
             position.setCity("beijing");
             positionRepository.save(position);
@@ -52,7 +52,7 @@ public class TestShardingMasterSlavesDatabase {
     public void testAdd2() {
         for (int i = 1; i <= 20; i++) {
             Position position = new Position();
-            position.setName("lagou" + i);
+            position.setName("shard" + i);
             position.setSalary("1000000");
             position.setCity("beijing");
             positionRepository.save(position);
@@ -100,7 +100,7 @@ public class TestShardingMasterSlavesDatabase {
         bOrder.setCreateTime(new Date());
         bOrder.setOperateTime(new Date());
         bOrder.setWorkYear("2");
-        bOrder.setName("lagou");
+        bOrder.setName("shard");
         bOrder.setPositionName("Java");
         bOrder.setResumeId(23233);
         orderRepository.save(bOrder);

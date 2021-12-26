@@ -1,11 +1,11 @@
-package com.lagou.entity;
+package com.shard.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "c_user")
-public class CUser implements Serializable {
+@Table(name = "city")
+public class City implements Serializable {
 
     @Id
     @Column(name = "id")
@@ -15,8 +15,8 @@ public class CUser implements Serializable {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "pwd")//逻辑列名
-    private String pwd;
+    @Column(name = "province")
+    private String province;
 
     public long getId() {
         return id;
@@ -34,11 +34,11 @@ public class CUser implements Serializable {
         this.name = name;
     }
 
-    public String getPwd() {
-        return pwd;
+    public String getProvince() {
+        return province;
     }
 
-    public void setPwd(String pwd) {
-        this.pwd = pwd;
+    public void setProvince(String province) {
+        this.province = province;
     }
 }

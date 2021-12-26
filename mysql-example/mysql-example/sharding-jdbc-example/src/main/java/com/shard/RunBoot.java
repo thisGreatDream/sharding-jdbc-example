@@ -1,4 +1,4 @@
-package com.lagou;
+package com.shard;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -1,8 +1,8 @@
 package dao;
 
-import com.lagou.RunBoot;
-import com.lagou.entity.City;
-import com.lagou.repository.CityRepository;
+import com.shard.RunBoot;
+import com.shard.entity.City;
+import com.shard.repository.CityRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,6 +1,6 @@
-package com.lagou.repository;
+package com.shard.repository;
 
-import com.lagou.entity.City;
+import com.shard.entity.City;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CityRepository extends JpaRepository<City,Long> {

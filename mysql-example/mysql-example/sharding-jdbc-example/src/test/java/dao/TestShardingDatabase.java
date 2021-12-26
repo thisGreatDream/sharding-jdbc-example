@@ -1,18 +1,17 @@
 package dao;
 
-import com.lagou.RunBoot;
-import com.lagou.entity.BOrder;
-import com.lagou.entity.City;
-import com.lagou.entity.Position;
-import com.lagou.entity.PositionDetail;
-import com.lagou.repository.BOrderRepository;
-import com.lagou.repository.CityRepository;
-import com.lagou.repository.PositionDetailRepository;
-import com.lagou.repository.PositionRepository;
+import com.shard.RunBoot;
+import com.shard.entity.BOrder;
+import com.shard.entity.City;
+import com.shard.entity.Position;
+import com.shard.entity.PositionDetail;
+import com.shard.repository.BOrderRepository;
+import com.shard.repository.CityRepository;
+import com.shard.repository.PositionDetailRepository;
+import com.shard.repository.PositionRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.annotation.Repeat;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
@@ -40,7 +39,7 @@ public class TestShardingDatabase {
         for (int i = 1; i <= 20; i++) {
             Position position = new Position();
 //            position.setId(i);
-            position.setName("lagou" + i);
+            position.setName("shard" + i);
             position.setSalary("1000000");
             position.setCity("beijing");
             positionRepository.save(position);
@@ -51,7 +50,7 @@ public class TestShardingDatabase {
     public void testAdd2() {
         for (int i = 1; i <= 20; i++) {
             Position position = new Position();
-            position.setName("lagou" + i);
+            position.setName("shard" + i);
             position.setSalary("1000000");
             position.setCity("beijing");
             positionRepository.save(position);
@@ -82,25 +81,30 @@ public class TestShardingDatabase {
     }
 
     @Test
-    @Repeat(100)
+//    @Repeat(10)
     public void testShardingBOrder() {
-        Random random = new Random();
-        int companyId = random.nextInt(10);
-        BOrder order = new BOrder();
-        order.setDel(false);
-        order.setCompanyId(companyId);
-        order.setPositionId(3242342);
-        order.setUserId(2222);
-        order.setPublishUserId(1111);
-        order.setResumeType(1);
-        order.setStatus("AUTO");
-        order.setCreateTime(new Date());
-        order.setOperateTime(new Date());
-        order.setWorkYear("2");
-        order.setName("lagou");
-        order.setPositionName("Java");
-        order.setResumeId(23233);
-        orderRepository.save(order);
+
+
+        for (int i = 0; i <10 ; i++) {
+            Random random = new Random();
+            int companyId = random.nextInt(10);
+            BOrder order = new BOrder();
+            order.setId(i);
+            order.setDel(false);
+            order.setCompanyId(companyId);
+            order.setPositionId(3242342);
+            order.setUserId(2222);
+            order.setPublishUserId(1111);
+            order.setResumeType(1);
+            order.setStatus("AUTO");
+            order.setCreateTime(new Date());
+            order.setOperateTime(new Date());
+            order.setWorkYear("2");
+            order.setName("shard");
+            order.setPositionName("Java");
+            order.setResumeId(23233);
+            orderRepository.save(order);
+        }
     }
 
 }

@@ -1,4 +1,4 @@
-package com.lagou.hint;
+package com.shard.hint;
 
 import org.apache.shardingsphere.api.sharding.hint.HintShardingAlgorithm;
 import org.apache.shardingsphere.api.sharding.hint.HintShardingValue;
