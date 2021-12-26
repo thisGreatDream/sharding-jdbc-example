@@ -1,0 +1,1 @@
+分库分表的demo在GeekOrderCrudTest类中，分布式事务的demo在类XAExampleMain
