@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sharding-jdbc-example.iml" filepath="$PROJECT_DIR$/.idea/sharding-jdbc-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysql-example/mysql-example/sharding-jdbc-example/sharding-jdbc-example.iml" filepath="$PROJECT_DIR$/mysql-example/mysql-example/sharding-jdbc-example/sharding-jdbc-example.iml" />
     </modules>
   </component>
 </project>
